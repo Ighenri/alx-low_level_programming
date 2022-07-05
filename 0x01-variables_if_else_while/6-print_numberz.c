@@ -8,14 +8,14 @@
 int main(void)
 
 {
-	char a = 0;
+	int ch;
 
-	while (a < 10)
+	for (ch = 48; ch <= 57; ch++)
 	{
-		putchar("%s", a);
-		a = a + 1;
+	putchar(ch);
 	}
-	putchar("\n");
+
+	putchar(10);/* this is an ascii code for new line*/
 	return (0);
 }
 
