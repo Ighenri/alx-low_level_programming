@@ -13,5 +13,6 @@ int main(void)
 	{
 	putchar(Al);
 	}
+	putchar('\n');
 	return (0);
 }
